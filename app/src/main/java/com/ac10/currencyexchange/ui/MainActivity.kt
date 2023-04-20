@@ -1,8 +1,7 @@
 package com.ac10.currencyexchange.ui
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.ac10.currencyexchange.R
+import androidx.appcompat.app.AppCompatActivity
 import com.ac10.currencyexchange.databinding.ActivityMainBinding
 import dagger.hilt.android.AndroidEntryPoint
 
@@ -14,15 +13,13 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
+        //WindowCompat.setDecorFitsSystemWindows(window, false)
         binding = ActivityMainBinding.inflate(layoutInflater)
 
         setContentView(binding.root)
-
         setSupportActionBar(binding.toolbar)
 
 
     }
-
-
 
 }

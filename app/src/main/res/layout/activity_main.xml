@@ -12,8 +12,8 @@
         android:layout_height="wrap_content" >
 
         <com.google.android.material.appbar.MaterialToolbar
-            android:id="@+id/toolbar"
             android:layout_width="match_parent"
+            android:id="@+id/toolbar"
             android:layout_height="?attr/actionBarSize" />
 
     </com.google.android.material.appbar.AppBarLayout>
@@ -21,10 +21,10 @@
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/currency_fragment"
         android:name="com.ac10.currencyexchange.ui.CurrenciesFragment"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:layout_behavior="@string/appbar_scrolling_view_behavior"
-        tools:layout="@layout/fragment_currencies"
-        />
+        tools:layout="@layout/fragment_currencies"/>
+
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
