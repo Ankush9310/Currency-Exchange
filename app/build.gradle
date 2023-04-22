@@ -27,13 +27,13 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
 
             // replace with your production API_KEY
-            buildConfigField 'String', 'OPENEXCHANGERATE_API_KEY', '"8zb3PR87l4JgWsZitO1PBDD7x3mQmjNA"'
+            buildConfigField 'String', 'OPENEXCHANGERATE_API_KEY', '"99ed58fd43894b3088487a1794d4ca19"'
 
 
         }
 
         debug {
-            buildConfigField 'String', 'OPENEXCHANGERATE_API_KEY', '"8zb3PR87l4JgWsZitO1PBDD7x3mQmjNA"'
+            buildConfigField 'String', 'OPENEXCHANGERATE_API_KEY', '"99ed58fd43894b3088487a1794d4ca19"'
         }
 
     }
