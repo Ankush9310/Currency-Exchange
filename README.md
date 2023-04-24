@@ -16,5 +16,5 @@ In this project you'll find :
 
 # ScreenShot - 
 
-![Screenshot_20210903_172026](https://user-images.githubusercontent.com/53166119/132000823-530b149d-82eb-4328-86b5-2e2e7745e30f.png)
+<img width="200" height="300" src="/art/screenshot_about.png">
 
