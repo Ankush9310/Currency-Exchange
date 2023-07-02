@@ -13,3 +13,8 @@ In this project you'll find :
 * **[Coroutines](https://kotlinlang.org/docs/coroutines-overview.html)** for asynchronous operations
 * **[LiveData](https://developer.android.com/topic/libraries/architecture/livedata)** and ui states handling for loading/success/error
 * Unit testing
+
+# ScreenShot - 
+
+<img width="200" height="300" src="Currency-Exchange/Screenshot_20230422_004523.png">
+
