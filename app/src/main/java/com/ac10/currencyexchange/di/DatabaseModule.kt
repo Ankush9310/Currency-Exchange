@@ -13,7 +13,7 @@ import javax.inject.Singleton
 
 @InstallIn(SingletonComponent::class)
 @Module
-class DatabaseModuleInjection {
+class DatabaseModule {
 
     @Singleton
     @Provides
