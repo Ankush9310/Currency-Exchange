@@ -1,7 +1,7 @@
 # Currency-Exchange
 
-A MVVM architecture using a clean code structure in which you can see the all currency exchange rate.
-The project use openexchangerate api to fetch currencies rate.
+An MVVM architecture using a clean code structure in which you can see the all-currency exchange rate.
+The project uses openexchangerate API to fetch currency rates.
 
 In this project you'll find :
 
